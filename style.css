@@ -1,0 +1,144 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Header Styles */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #232f3e;
+    color: white;
+  }
+  
+  .logo img {
+    height: 10px;
+  }
+  
+  .search-bar input {
+    padding: 8px;
+    width: 300px;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  .search-bar button {
+    padding: 8px 12px;
+    background-color: #febd69;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .nav-links a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+  }
+  
+  .nav-links a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Product Listing Styles */
+  .product-listing {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .product-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+  }
+  
+  .product-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .product-card h3 {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  
+  .product-card p {
+    font-size: 14px;
+    color: #b12704;
+  }
+  
+  .product-card button {
+    padding: 8px 12px;
+    background-color: #febd69;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .product-card button:hover {
+    background-color: #f3a847;
+  }
+  
+  /* Product Detail Styles */
+  .product-detail {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .product-image img {
+    width: 300px;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .product-info {
+    max-width: 400px;
+  }
+  
+  .product-info h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .product-info .price {
+    font-size: 20px;
+    color: #b12704;
+    margin-bottom: 10px;
+  }
+  
+  .product-info .description {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .product-info button {
+    padding: 10px 20px;
+    background-color: #febd69;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .product-info button:hover {
+    background-color: #f3a847;
+  }
+  
+  /* Footer Styles */
+  .footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #232f3e;
+    color: white;
+  }

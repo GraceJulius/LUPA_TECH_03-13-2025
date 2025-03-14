@@ -14,12 +14,21 @@
 
 
 # What the application does
+AmazonWish provides an interactive shopping simulation where users can experience a real-life shopping environment before making actual purchases.
+
+Users receive virtual currency to explore and shop within the simulated app, tailored to their real shopping preferences.
+They can rate and provide feedback on their experience, helping refine AI-driven personalization.
+The app is compatible with VR devices for an immersive experience, but also supports Bitmoji avatars for users without VR access.
+When satisfied with their virtual shopping experience, users can seamlessly transition to the real shopping platform to complete their purchases.
+By bridging AI-powered ad personalization with an engaging virtual shopping experience, AmazonWish reduces return rates, ad waste, and consumer frustration while promoting smarter, more sustainable online shopping.
 
 # Tech/frameworks
+ JavaScript, HTML, CSS, Python
 
 # How to navigate/interpret the application
+This is the link to the app's figma/wireframe design that can show the flow award.
 
 # How to run the application
-
+The application runs like the regular amazon app except for some few distinctions that highlights the way in which our app is distinct from thw regular one.
 
 # A way to tell if the app started successfully

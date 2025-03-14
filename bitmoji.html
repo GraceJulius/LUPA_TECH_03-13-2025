@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bitmoji Experience</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body class="bitmoji-background">
+    <div class="bitmoji-container">
+        <h1>Bitmoji Experience</h1>
+        <div class="bitmoji-carousel">
+            <img src="bitmoji1.jpg" alt="Bitmoji 1" class="bitmoji active">
+            <img src="bitmoji2.jpg" alt="Bitmoji 2" class="bitmoji">
+            <img src="bitmoji3.jpg" alt="Bitmoji 3" class="bitmoji">
+        </div>
+        <button class="next-button" onclick="nextBitmoji()">Next <i class="fas fa-arrow-right"></i></button>
+    </div>
+
+    <script>
+        let currentBitmojiIndex = 0;
+        const bitmojis = document.querySelectorAll('.bitmoji');
+
+        // Function to show the next Bitmoji
+        function nextBitmoji() {
+            bitmojis[currentBitmojiIndex].classList.remove('active');
+            currentBitmojiIndex = (currentBitmojiIndex + 1) % bitmojis.length;
+            bitmojis[currentBitmojiIndex].classList.add('active');
+        }
+    </script>
+</body>
+</html>

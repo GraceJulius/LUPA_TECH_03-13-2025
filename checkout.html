@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout Options</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <div class="checkout-container">
+        <h1>Checkout Options</h1>
+        <div class="options">
+            <div class="option">
+                <h2>Amazon VR</h2>
+                <p>Experience your cart in virtual reality.</p>
+                <button onclick="viewBitmojis()">View Bitmojis</button>
+            </div>
+            <div class="option">
+                <h2>Website Checkout</h2>
+                <p>Proceed to the website to complete your purchase.</p>
+                <button class="website-checkout" onclick="goToWebsite()">Go to Website</button>
+            </div>
+        </div>
+        <a href="index.html" class="back-to-cart">Back to Cart</a>
+    </div>
+
+    <script>
+        // Redirect to Bitmoji page
+        function viewBitmojis() {
+            window.location.href = "bitmoji.html"; // Redirect to the Bitmoji page
+        }
+
+        // Redirect to Amazon website
+        function goToWebsite() {
+            window.location.href = "https://www.amazon.com"; // Redirect to Amazon.com
+        }
+    </script>
+</body>
+</html>
